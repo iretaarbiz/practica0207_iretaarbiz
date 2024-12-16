@@ -6,3 +6,4 @@ if os.path.isfile(nombre):
     print(file.read())
 else:
     print("El fichero no existe")
+file.close()
